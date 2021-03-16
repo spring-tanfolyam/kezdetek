@@ -1,4 +1,4 @@
-package hu.cegnev.komplexservice;
+package hu.cegnev.komplexservice.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
