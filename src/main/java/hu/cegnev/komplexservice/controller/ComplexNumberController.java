@@ -16,9 +16,12 @@ import java.util.stream.Collectors;
 
 @RequestMapping("/complex-number")
 @RestController
-@RequiredArgsConstructor
 public class ComplexNumberController {
     private final ComplexNumberService complexNumberService;
+
+    public ComplexNumberController(ComplexNumberService complexNumberService) {
+        this.complexNumberService = complexNumberService;
+    }
 
     @PostMapping("/record")
     public void record(@RequestBody ComplexNumberRecordDto dto) {

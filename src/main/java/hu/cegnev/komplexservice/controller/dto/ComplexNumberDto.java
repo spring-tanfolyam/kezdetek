@@ -6,8 +6,6 @@ import lombok.Data;
 @Data
 @Builder
 public class ComplexNumberDto {
-
     private double real;
-
     private double imaginary;
 }
