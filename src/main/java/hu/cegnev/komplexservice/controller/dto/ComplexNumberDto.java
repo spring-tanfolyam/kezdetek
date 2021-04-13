@@ -7,5 +7,5 @@ import lombok.Data;
 @Builder
 public class ComplexNumberDto {
     private double real;
-    private double imaginary;
+    private double imag;
 }
